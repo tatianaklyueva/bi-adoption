@@ -1,0 +1,25 @@
+process_id,process_order,process_group,process_type,process_name
+1,1,BI Strategy,Strategy,BI strategy and organizational strategy
+2,2,BI Strategy,Strategy,Analytical usecases map for key roles / processes
+3,1,Report Development Framework,Tactics,BI Report Business Case Analysis
+4,2,Report Development Framework,Tactics,"Prioritization,  Go / noGo acceptance"
+5,3,Report Development Framework,Tactics,Business requirements gathering and analysis
+6,4,Report Development Framework,Tactics,BI Report UX design
+7,5,Report Development Framework,Tactics,Data integration / Data preparation
+8,6,Report Development Framework,Tactics,BI Report Development
+9,7,Report Development Framework,Check,User acceptance testing / Quality Checks
+10,8,Report Development Framework,Tactics,Report release / Promotion
+11,9,Report Development Framework,Tactics,Report training for target audience
+12,1,Monitoring and Checks,Strategy,Monitoring strategy
+13,2,Monitoring and Checks,Check,Awareness check
+14,3,Monitoring and Checks,Check,Discovera﻿bility check
+15,4,Monitoring and Checks,Check,Availability check
+16,5,Monitoring and Checks,Check,Relevance check
+17,6,Monitoring and Checks,Check,UI / UX Quality check
+18,7,Monitoring and Checks,Check,Performance check
+19,8,Monitoring and Checks,Check,Data Quality check
+20,9,Monitoring and Checks,Check,Trust check
+21,10,Monitoring and Checks,Check,Servi﻿ce Quality check
+22,1,Data Governance & Quality,Company initiative,Self-service BI framework
+23,2,Data Governance & Quality,Company initiative,Data Quality Management
+24,3,Data Culture,Company initiative,Data Literacy Project

@@ -1,0 +1,79 @@
+measure_id,process_id,process_name,measure_order,measure_name
+1,1,Strategical Process,1,Alignment of BI strategy and organizational strategy
+2,1,Strategical Process,2,Key roles / data domain structure identification
+3,1,Strategical Process,3,Information supply-demand matrix
+4,1,Strategical Process,4,Agile delivery of high-value solution
+5,1,Strategical Process,5,Embedding reports into processes via regular management meetings
+6,2,Analytical usecases map for key roles / processes,1,Finding adoption drivers – cases where BI report becomes the only source of some critical information
+7,3,BI Report Business Case Analysis,1,Analytics Partners Service instead of reporting factory
+8,4,"Prioritization,  Go / noGo acceptance",1,Target audience and adoption targets defined with Customer before development
+9,4,"Prioritization,  Go / noGo acceptance",2,Acceptance criteria system for reporting factory service
+10,4,"Prioritization,  Go / noGo acceptance",3,Checking whether existing reports address the use case to redirect user or extend the current report
+11,5,BI Report Business case analysis,1,Requirements gathering framework
+12,6,BI Report UX design,1,BI Style Guide and Template
+13,6,BI Report UX design,2,Report simplification - complexity depending on user role and demand
+14,7,Data integration / Data preparation,1,Guideline on complying with architecture standards and using existing certified data source layer
+15,8,BI Report Development,1,Agile BI Development Flow
+16,8,BI Report Development,2,Report architecture guideline
+17,9,User acceptance tecting / Quality Checks,1,Peer-to-peer review in the BI team
+18,9,User acceptance tecting / Quality Checks,2,Report description template / Documentation wiki
+19,9,User acceptance tecting / Quality Checks,3,Report performance check vs SLA vs previous version performance
+20,9,User acceptance tecting / Quality Checks,4,Involving data steward in a formal workflow as a tester
+21,9,User acceptance tecting / Quality Checks,5,BI Ops tool
+22,9,User acceptance tecting / Quality Checks,6,Design check lists
+23,10,Report release / Promotion,1,New report release / report change notifications
+24,10,Report release / Promotion,2,Promo from business leader / corporate influencer
+25,11,Report training for target audience,1,Training with recording as a mandatory final step of any report with audience > X
+26,12,Monitoring strategy,1,Build and use reporting monitoring toolset
+27,12,Monitoring strategy,2,"Look into usage stats with customer who requested the report, share results"
+28,13,Awareness check,1,Make BI report a part of a regular meeting agenda
+29,13,Awareness check,2,Dedicated role - Trainer / Business Analyst
+30,13,Awareness check,3,Regular remainder trainings
+31,13,Awareness check,4,"Communication based on events -﻿ new report emails, channel posts"
+32,13,Awareness check,5,Automatic onboarding of user newcomers
+33,13,Awareness check,6,Video recording training base
+34,13,Awareness check,7,Surveys
+35,14,Discovera﻿bility check,1,Advanced navigation: BI Portal / Catalogue 
+36,14,Discovera﻿bility check,2,Advanced navigation: LLM-driven chatbot
+37,14,Discovera﻿bility check,3,Embedding analytics in systems and interfaces native for users
+38,15,Availability check,1,User funnel analysis - checking access obstacles (e. g. VPN)
+39,15,Availability check,2,Access management automation
+40,15,Availability check,3,Role-based access matrix
+41,16,Relevance check,1,"Feedback framework: embedded forms, Feedback bot, surveys"
+42,16,Relevance check,2,Product / CustDev practices application to reports
+43,17,UI / UX Quality check,1,Report beautification service
+44,17,UI / UX Quality check,2,Big Clean-up Day event
+45,17,UI / UX Quality check,3,Digital adoption tool / User Onboarding guides in BI UI
+46,17,UI / UX Quality check,4,Active automated design / content health assessment
+47,17,UI / UX Quality check,5,Insight Digest / Insight Alerts (Manual or automated AI-driven)
+48,17,UI / UX Quality check,6,Natural language queries / Data assistant chatbots
+49,17,UI / UX Quality check,7,Reporting WIki / Documentation Portal
+50,18,Performance check,1,Reports and BI server Performance monitoring toolset
+51,18,Performance check,2,Advanced BI Product Training for creators - BI/DWH School
+52,18,Performance check,3,Report health tool for automated content review (BI-Ops)
+53,19,Data Quality check,1,Master data source quality monitoring
+54,19,Data Quality check,2,Alerts about report update delays
+55,20,Trust check,1,Reporting certification workflow
+56,20,Trust check,2,Executive sponsor / internal influencer engagement
+57,20,Trust check,3,Analytics consulting service from centralized BI team
+58,20,Trust check,4,BI Champions program and federated service support flow
+59,20,Trust check,5,Web-authoring for business users
+60,20,Trust check,6,"""Reports popular in your role"" feature"
+61,20,Trust check,7,BI Public Quality Boards
+62,21,Service Quality check,1,Chat/channels for end users and data-stewards / report owners with SLA for response and duties
+63,21,Service Quality check,2,BI service desk - service quality monitoring
+64,21,Service Quality check,3,"Customer satisfaction analysis, surveys"
+65,21,Service Quality check,4,BI Project time to market analysis / monitoring
+66,22,Self-service BI framework,1,Governed Self-Service Framework – Embedded analysts
+67,23,Data Governance & Quality,1,Data Governance program
+68,23,Data Governance & Quality,2,Data catalog implementation
+69,23,Data Governance & Quality,3,Corporate glossary
+70,23,Data Governance & Quality,4,Semantic layer
+71,23,Data Governance & Quality,5,Data products framework
+72,23,Data Governance & Quality,6,Data contracts
+73,23,Data Governance & Quality,7,Data quality management system
+74,24,Data Literacy Project,1,Upskilling program on Data literacy
+75,24,Data Literacy Project,2,Cultural change project
+76,24,Data Literacy Project,3,Data-oriented hiring policy
+77,24,Data Literacy Project,4,Digital transformation as a strategic initiative
+78,24,Data Literacy Project,5,Data-driven top-management

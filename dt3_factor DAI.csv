@@ -1,0 +1,46 @@
+factor_id,action_area_id,key_actor_id,factor_level,factor_name_dai,factor_name
+1,,,Analytics Maturity in General,Report is connected to a business case,Business has changed and existing reports are outdated and no longer reflect new business requirements   
+2,,,Analytics Maturity in General,Report is a part of a report system,"Reports lack the metrics tied to managers KPIs, which affect their compensation"
+3,,,Analytics Maturity in General,"Planning process established (documentation, workflow, checklists)","Reports were created unnecessarily when ad-hoc data, charts or slides would be more effective "
+4,,,Analytics Maturity in General,Metrics are regularly planned,"Feedback mechanisms are weak, and user suggestions for improvement are not being captured or implemented. "
+5,,,Analytics Maturity in General,Reporting is used in business decision,No proactive consultation with users / personas to understand the reporting needs.
+6,,,Analytics Maturity in General,Business logic of report is trusted,Your reporting factory speed does not keep up with the pace of business.
+7,,,Stakeholder Analytics Maturity,Report is a part of standartize business analysis,"Reports are not tailored to individual / team needs, so users feel that the data presented is not directly relevant to their goals."
+8,,,Stakeholder Analytics Maturity,Human expertise vs automatic calculation,Users aren't informed about new reports or updates due to lack of internal promotion
+9,,,Company Analytics Maturity,Company is data-driven,New users are not being onboarded to available reports
+10,,,Company analytic maturity,Company is innovative,Reports are hard to find due to poor navigation
+11,,,Company analytic maturity,Reporting solutions are a regular part of a budget,BI reports are poorly integrated into familiar systems interfaces
+12,,,Company analytic maturity,With enough data we can achieve budget inrease,No user groups or forums where BI users can share insights or challenges
+13,,,Company analytic maturity,Company compared to the market in Business analytic perspective,Users forget BI reports due to lack of periodic reminders or updates
+14,,,Company analytic maturity,There is a dedicated data/reporting team,Reports lack self-explanation and are difficult to get how to use it without clarification   
+15,,,Analytics Landscape Maturity,We have a descriptions of reporting KPIs we monitror regularly,"Report use complex jargon, that's inaccessible to most users"
+16,,,Analytics Landscape Maturity,Those  reporting KPIs are generated automatically,Users are not trained on using a report / working with BI system
+17,,,Analytics Landscape Maturity,We have data available for all type of analysis we want to run,"Key metrics and calculations are not explained, leading to confusion about the results"
+18,,,Analytics Landscape Maturity,Data catalog is used in everyday work,"Visualizations are too complex, causing informational overload for users"
+19,,,Analytics Landscape Maturity,We have integrated data,"Reports lack guided tutorial, embedded hints, and external documentation"
+20,,,Data Maturity – Data availability,"BI team is aware, where data is stored physically",Users feel a lack of support and do not have an easy option to access consultancy
+21,,,Data Maturity – Data availability,"BI team is aware, how to access the data",BI reports are not flexible / functional enough
+22,,,Data Maturity – Data availability,Data granularity is sufficient,Report require too many clicks or navigation steps to find relevant data
+23,Recommendation,Agreement or contract with data source on data provisioning,Data Maturity – Data availability,Update period is sufficient,"Access granting process is not clear for users, not transparent data visibility principles"
+24,,,Data Maturity – Data Integration,There is a consensus on dimension definition across used data sources,BI reports are too slow
+25,Recommendation,"Central solution for describing analytic artefacts in the company (KPI, report, table)",Data Maturity – Data Description,Used metrics have standard definition in a department / company,Users need more flexible and responsive service
+26,,,Data Maturity – Data Description,“Data owners” or “Data stewards” take responsibility for data,"Data refresh intervals are too long, resulting in outdated and low-value insights."
+27,Recommendation,Logging for data export,Data Maturity – Data Description,There is working guideline for approach to metadata,"Reports are not mobile-friendly, making it difficult to access on the go"
+28,,"Data models (conceptual, logical, physical)",Data Maturity – Data Description,Data models are in place.,BI reports are hard to convert into formats users need for further analysis or presentation
+29,,,Data Maturity – Data Security,There is a general security model for reporting projects. ,Users can't customize reports without deep BI tool knowledge
+30,,,Data Maturity – Data Security,There is a security model for concrete datasets,"Users don't need reports, but rather role-specific ready-made insights and miss timely alerts that can trigger actions"
+31,,,Data Maturity – Data Security,Data / report storage complies with security standarts,Report contain obvious bugs and data quality issues that are visible to users
+32,,,IT Maturity – Processes,Performance monitoring is established,Data discrepancies between BI reports and other sources cause mistrust
+33,,,IT Maturity – Processes,There is a technical support for the report solutions.,"The data timeliness in the report is unclear, leaving users unsure about the origin and reliability of the data"
+34,Recommendation,Version control in place,IT Maturity – Processes,Access process is clear,"Data sources are unclear, leaving users unsure about the origin and reliability of the data"
+35,,,Team Readiness,The experience profile of the team matches with the reporting solutions you have.,There is no clear accountability for who owns and maintains the data in the report
+36,,,Team Readiness,BI team understands business goals of reporting,Users face a cluttered BI environment with too many reports and multiple versions of the same report.
+37,,,Team Readiness,Business users are well represented in project teams working on reports.,Users lack trust in BI reports created by a separate team with logic independent of their control
+38,,,Team Readiness,Data owners are engaged in reporting preparation.,Reports lack credibility due to low support from the leadership
+39,,,,,Users have job security concerns against your BI service
+40,,,,,"Reports are perceived as ""extra work"", not as tools for improving efficiency"
+41,,,,,Users have alternative tools or processes they prefer over BI reports
+42,,,,,Users lack motivation to make data-driven decision due to the current workflow and management approach
+43,,,,,Users have methodological concerns and disagree with business logic within the reports
+44,,,,,"Users are skeptical of automated insights due to the ""black box"" effect and prefer manual data manipulation"
+45,,,,,User's don't have enough skills to work with information

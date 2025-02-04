@@ -1,0 +1,93 @@
+bridge_id,factor_id,factor_name,process_id,process_name,weight
+1,1,Business has changed and existing reports are outdated and no longer reflect new business requirements   ,2,Analytical usecases map for key roles / processes,0.3
+2,1,Business has changed and existing reports are outdated and no longer reflect new business requirements   ,3,BI Report Business Case Analysis,0.1
+3,1,Business has changed and existing reports are outdated and no longer reflect new business requirements   ,16,Relevance check,0.3
+4,1,Business has changed and existing reports are outdated and no longer reflect new business requirements   ,1,BI strategy and organizational strategy,0.3
+5,2,"Reports lack the metrics tied to managers KPIs, which affect their compensation",2,Analytical usecases map for key roles / processes,0.5
+6,2,"Reports lack the metrics tied to managers KPIs, which affect their compensation",3,BI Report Business Case Analysis,0.5
+7,3,"Reports were created unnecessarily when ad-hoc data, charts or slides would be more effective ",4,"Prioritization,  Go / noGo acceptance",1
+8,4,"Feedback mechanisms are weak, and user suggestions for improvement are not being captured or implemented. ",16,Relevance check,0.5
+9,4,"Feedback mechanisms are weak, and user suggestions for improvement are not being captured or implemented. ",21,Service Quality check,0.5
+10,5,No proactive consultation with users / personas to understand the reporting needs.,2,Analytical usecases map for key roles / processes,0.3
+11,5,No proactive consultation with users / personas to understand the reporting needs.,21,Service Quality check,0.3
+12,5,No proactive consultation with users / personas to understand the reporting needs.,5,Business requirements gathering and analysis,0.4
+13,6,Your reporting factory speed does not keep up with the pace of business.,8,BI Report Development,0.4
+14,6,Your reporting factory speed does not keep up with the pace of business.,1,BI strategy and organizational strategy,0.1
+15,6,Your reporting factory speed does not keep up with the pace of business.,3,BI Report Business Case Analysis,0.5
+16,7,"Reports are not tailored to individual / team needs, so users feel that the data presented is not directly relevant to their goals.",5,Business requirements gathering and analysis,0.5
+17,7,"Reports are not tailored to individual / team needs, so users feel that the data presented is not directly relevant to their goals.",9,User acceptance testing / Quality Checks,0.5
+18,8,Users aren't informed about new reports or updates due to lack of internal promotion,10,Report release / Promotion,0.4
+19,8,Users aren't informed about new reports or updates due to lack of internal promotion,11,Report training for target audience,0.3
+20,8,Users aren't informed about new reports or updates due to lack of internal promotion,13,Awareness check,0.3
+21,9,New users are not being onboarded to available reports,13,Awareness check,1
+22,10,Reports are hard to find due to poor navigation,14,Discovera﻿bility check,1
+23,11,BI reports are poorly integrated into familiar systems interfaces,14,Discovera﻿bility check,1
+24,12,No user groups or forums where BI users can share insights or challenges,21,Service Quality check,1
+25,13,Users forget BI reports due to lack of periodic reminders or updates,13,Awareness check,0.5
+26,13,Users forget BI reports due to lack of periodic reminders or updates,12,Monitoring strategy,0.5
+27,14,Reports lack self-explanation and are difficult to get how to use it without clarification   ,6,BI Report UX design,0.5
+28,14,Reports lack self-explanation and are difficult to get how to use it without clarification   ,17,UI / UX Quality check,0.5
+29,15,"Report use complex jargon, that's inaccessible to most users",6,BI Report UX design,0.5
+30,15,"Report use complex jargon, that's inaccessible to most users",17,UI / UX Quality check,0.5
+31,16,Users are not trained on using a report / working with BI system,11,Report training for target audience,0.5
+32,16,Users are not trained on using a report / working with BI system,13,Awareness check,0.5
+33,17,"Key metrics and calculations are not explained, leading to confusion about the results",11,Report training for target audience,0.5
+34,17,"Key metrics and calculations are not explained, leading to confusion about the results",13,Awareness check,0.5
+35,18,"Visualizations are too complex, causing informational overload for users",9,User acceptance testing / Quality Checks,0.3
+36,18,"Visualizations are too complex, causing informational overload for users",6,BI Report UX design,0.4
+37,18,"Visualizations are too complex, causing informational overload for users",17,UI / UX Quality check,0.3
+38,19,"Reports lack guided tutorial, embedded hints, and external documentation",9,User acceptance testing / Quality Checks,1
+39,20,Users feel a lack of support and do not have an easy option to access consultancy,20,Trust check,0.5
+40,20,Users feel a lack of support and do not have an easy option to access consultancy,21,Servi﻿ce Quality check,0.5
+41,21,BI reports are not flexible / functional enough,6,BI Report UX design,0.5
+42,21,BI reports are not flexible / functional enough,17,UI / UX Quality check,0.5
+43,22,Report require too many clicks or navigation steps to find relevant data,6,BI Report UX design,0.5
+44,22,Report require too many clicks or navigation steps to find relevant data,17,UI / UX Quality check,0.5
+45,23,"Access granting process is not clear for users, not transparent data visibility principles",15,Availability check,1
+46,24,BI reports are too slow,6,BI Report UX design,0.5
+47,24,BI reports are too slow,18,Performance check,0.5
+48,25,Users need more flexible and responsive service,21,Servi﻿ce Quality check,1
+49,26,"Data refresh intervals are too long, resulting in outdated and low-value insights.",9,User acceptance testing / Quality Checks,0.5
+50,26,"Data refresh intervals are too long, resulting in outdated and low-value insights.",19,Data Quality check,0.5
+51,27,"Reports are not mobile-friendly, making it difficult to access on the go",6,BI Report UX design,0.5
+52,27,"Reports are not mobile-friendly, making it difficult to access on the go",17,UI / UX Quality check,0.5
+53,28,BI reports are hard to convert into formats users need for further analysis or presentation,6,BI Report UX design,0.5
+54,28,BI reports are hard to convert into formats users need for further analysis or presentation,17,UI / UX Quality check,0.5
+55,29,Users can't customize reports without deep BI tool knowledge,6,BI Report UX design,0.3
+56,29,Users can't customize reports without deep BI tool knowledge,11,Report training for target audience,0.2
+57,29,Users can't customize reports without deep BI tool knowledge,17,UI / UX Quality check,0.2
+58,29,Users can't customize reports without deep BI tool knowledge,24,Data Literacy Project,0.3
+59,30,"Users don't need reports, but rather role-specific ready-made insights and miss timely alerts that can trigger actions",4,"Prioritization,  Go / noGo acceptance",0.5
+60,30,"Users don't need reports, but rather role-specific ready-made insights and miss timely alerts that can trigger actions",17,UI / UX Quality check,0.5
+61,31,Report contain obvious bugs and data quality issues that are visible to users,19,Data Quality check,0.5
+62,31,Report contain obvious bugs and data quality issues that are visible to users,23,Data Quality Management,0.5
+63,32,Data discrepancies between BI reports and other sources cause mistrust,7,Data integration / Data preparation,0.4
+64,32,Data discrepancies between BI reports and other sources cause mistrust,19,Data Quality check,0.3
+65,32,Data discrepancies between BI reports and other sources cause mistrust,23,Data Quality Management,0.3
+66,33,"The data timeliness in the report is unclear, leaving users unsure about the origin and reliability of the data",17,UI / UX Quality check,0.5
+67,33,"The data timeliness in the report is unclear, leaving users unsure about the origin and reliability of the data",20,Trust check,0.5
+68,34,"Data sources are unclear, leaving users unsure about the origin and reliability of the data",20,Trust check,1
+69,35,There is no clear accountability for who owns and maintains the data in the report,20,Trust check,0.5
+70,35,There is no clear accountability for who owns and maintains the data in the report,23,Data Quality Management,0.5
+71,36,Users face a cluttered BI environment with too many reports and multiple versions of the same report.,14,Discovera﻿bility check,0.5
+72,36,Users face a cluttered BI environment with too many reports and multiple versions of the same report.,20,Trust check,0.5
+73,37,Users lack trust in BI reports created by a separate team with logic independent of their control,20,Trust check,0.5
+74,37,Users lack trust in BI reports created by a separate team with logic independent of their control,22,Self-service BI framework,0.5
+75,38,Reports lack credibility due to low support from the leadership,20,Trust check,0.5
+76,38,Reports lack credibility due to low support from the leadership,24,Data Literacy Project,0.5
+77,39,Users have job security concerns against your BI service,22,Self-service BI framework,0.5
+78,39,Users have job security concerns against your BI service,24,Data Literacy Project,0.5
+79,40,"Reports are perceived as ""extra work"", not as tools for improving efficiency",22,Self-service BI framework,0.5
+80,40,"Reports are perceived as ""extra work"", not as tools for improving efficiency",24,Data Literacy Project,0.5
+81,41,Users have alternative tools or processes they prefer over BI reports,12,Monitoring strategy,0.3
+82,41,Users have alternative tools or processes they prefer over BI reports,20,Trust check,0.2
+83,41,Users have alternative tools or processes they prefer over BI reports,24,Data Literacy Project,0.3
+84,41,Users have alternative tools or processes they prefer over BI reports,10,Report release / Promotion,0.2
+85,42,Users lack motivation to make data-driven decision due to the current workflow and management approach,20,Trust check,0.5
+86,42,Users lack motivation to make data-driven decision due to the current workflow and management approach,24,Data Literacy Project,0.5
+87,43,Users have methodological concerns and disagree with business logic within the reports,19,Data Quality check,0.3
+88,43,Users have methodological concerns and disagree with business logic within the reports,20,Trust check,0.3
+89,43,Users have methodological concerns and disagree with business logic within the reports,23,Data Quality Management,0.4
+90,44,"Users are skeptical of automated insights due to the ""black box"" effect and prefer manual data manipulation",23,Data Quality Management,0.5
+91,44,"Users are skeptical of automated insights due to the ""black box"" effect and prefer manual data manipulation",24,Data Literacy Project,0.5
+92,45,User's don't have enough skills to work with information,24,Data Literacy Project,1
