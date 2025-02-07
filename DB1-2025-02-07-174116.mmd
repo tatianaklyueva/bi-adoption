@@ -1,0 +1,75 @@
+---
+config:
+  look: neo
+---
+classDiagram
+direction TB
+    class Facts_User_Evaluation {
+	    +date evaluation_date
+	    +int factor_id
+	    +int score
+    }
+    class Facts_BI_Team_Evaluation {
+	    +date evaluation_date
+	    +int factor_id
+	    +int score
+    }
+    class Facts_BI_Usage_Monitoring {
+	    +date monitoring_date
+	    +int factor_id
+	    +int metric
+    }
+    class Dimension_Calendar {
+	    +date date
+	    +int year
+	    +int month
+	    +int day
+	    +int quarter
+    }
+    class Dimension_Factor {
+	    +int factor_id
+	    +int factor_level
+	    +int factor_group_id
+	    +string factor_group_name
+	    +String factor_name
+    }
+    class Dimension_Process {
+	    +int process_id
+	    +String process_name
+    }
+    class Dimension_Measure {
+	    +int measure_id
+	    +measure_order
+	    +String measure_name
+    }
+    class Bridge_Table_Factors_Processes {
+	    +int factor_id
+	    +int process_id
+    }
+    class Dimension_Area_of_Action {
+	    +int area_id
+	    +String area_name
+    }
+    class Dimension_Key_Actor {
+	    +int actor_id
+	    +String actor_name
+    }
+
+	note "FT1 and FT2 evaluate factors and processes over time."
+	note for Dimension_Calendar "Captures time dimensions."
+
+    Facts_User_Evaluation --> Dimension_Calendar 
+    Facts_User_Evaluation --> Dimension_Factor 
+    Facts_User_Evaluation --> Dimension_Process : involves
+    Facts_User_Evaluation --> Dimension_Measure : evaluates
+    Facts_User_Evaluation --> Dimension_Key_Actor : key actor
+    Facts_BI_Team_Evaluation --> Dimension_Calendar : uses
+    Facts_BI_Team_Evaluation --> Dimension_Factor : involves
+    Facts_BI_Team_Evaluation --> Dimension_Process : involves
+    Facts_BI_Team_Evaluation --> Dimension_Measure : evaluates
+    Facts_BI_Usage_Monitoring --> Dimension_Calendar : uses
+    Facts_BI_Usage_Monitoring --> Dimension_Area_of_Action : area
+    Facts_BI_Usage_Monitoring --> Dimension_Process : involves
+    Facts_BI_Usage_Monitoring --> Dimension_Measure : monitors
+    Bridge_Table_Factors_Processes --> Dimension_Factor : links
+    Bridge_Table_Factors_Processes --> Dimension_Process : links
