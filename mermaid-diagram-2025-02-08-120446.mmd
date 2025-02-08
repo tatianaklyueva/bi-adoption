@@ -1,0 +1,19 @@
+---
+config:
+  theme: mc
+  look: neo
+  layout: dagre
+---
+flowchart TD
+    AA(("Evaluation process started")) --> B("Gather user feedback") & C{"Are data of report usage available"}
+    C -- Yes --> D[/"Report usage metrics"/]
+    C -- No --> E("Get data of report usage")
+    B --> F[/"User Evaluation"/]
+    E --> D
+    F --> H("Organise BI Team adoption workshop")
+    D --> H
+    H --> I[/"BI Team Evaluation"/]
+    I --> J("Map Evaluation to Report Implementation Process")
+    J --> K("Get recommendations")
+    K -- Outcome --> L("Action Plan to Boost Adoption")
+ 
